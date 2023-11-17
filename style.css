@@ -27,6 +27,7 @@ canvas {
 }
 h1 {
   font-size: 7vw;
+  text-align: center;
   font-family: "BatmanForeverAlternate", sans-serif;
   position: fixed;
   background: linear-gradient(
@@ -111,8 +112,9 @@ h6 {
 }
 @media only screen and (max-width: 600px) {
   h2 {
-    bottom: 42%;
+    bottom: 37%;
   }
+
   .logo-links {
     display: none;
   }
