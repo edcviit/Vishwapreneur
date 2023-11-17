@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 @font-face {
   font-family: "BatmanForeverAlternate";
   src: url("./batmfa__.ttf") format("truetype");
@@ -9,7 +10,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Nanum+Gothic:wght@400;700&display=swap");
 body {
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: #000;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 
 canvas {
@@ -31,15 +31,15 @@ h1 {
   position: fixed;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.356) 0%,
+    rgba(255, 255, 255, 0.8) 0%,
     rgba(255, 255, 255, 0.88) 50%,
-    rgba(255, 255, 255, 0.36) 100%
+    rgba(255, 255, 255, 0.8) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.356) 0%,
+    rgba(255, 255, 255, 0.8) 0%,
     rgba(255, 255, 255, 0.88) 50%,
-    rgba(255, 255, 255, 0.36) 100%
+    rgba(255, 255, 255, 0.8) 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -48,23 +48,23 @@ h1 {
 h2 {
   position: fixed;
   font-size: 4vw;
+  font-family: "Audiowide", sans-serif;
   background: linear-gradient(
     180deg,
-    rgba(0, 200, 255, 0.495) 0%,
+    rgba(0, 200, 255, 0.3) 0%,
     rgba(0, 200, 255, 0.7) 50%,
-    rgba(0, 200, 255, 0.495) 100%
+    rgba(0, 200, 255, 0.3) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
-    rgba(0, 200, 255, 0.495) 0%,
+    rgba(0, 200, 255, 0.3) 0%,
     rgba(0, 200, 255, 0.7) 50%,
-    rgba(0, 200, 255, 0.495) 100%
+    rgba(0, 200, 255, 0.3) 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  bottom: 30%;
-  font-family: 'Nanum Gothic', sans-serif;
+  bottom: 28%;
 }
 
 h6 {
@@ -72,10 +72,9 @@ h6 {
   font-size: 72px;
   font-size: 3vw;
   bottom: 5vh;
-  font-family: "Quicksand", sans-serif;
   font-weight: 100;
   color: rgba(240, 248, 255, 0.473);
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Audiowide", sans-serif;
 }
 .nav {
   position: fixed;
