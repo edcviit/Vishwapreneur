@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Nanum+Gothic:wght@400;700&display=swap");
 body {
   display: flex;
   align-items: center;
@@ -18,6 +18,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background-color: #000;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 canvas {
@@ -31,13 +32,13 @@ h1 {
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.356) 0%,
-    rgb(255, 255, 255) 50%,
+    rgba(255, 255, 255, 0.88) 50%,
     rgba(255, 255, 255, 0.36) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.356) 0%,
-    rgb(255, 255, 255) 50%,
+    rgba(255, 255, 255, 0.88) 50%,
     rgba(255, 255, 255, 0.36) 100%
   );
   -webkit-background-clip: text;
@@ -49,20 +50,21 @@ h2 {
   font-size: 4vw;
   background: linear-gradient(
     180deg,
-    rgba(255, 222, 0, 0.4) 0%,
-    rgba(242, 255, 3, 0.8) 50%,
-    rgba(255, 222, 0, 0.4) 100%
+    rgba(0, 200, 255, 0.495) 0%,
+    rgba(0, 200, 255, 0.7) 50%,
+    rgba(0, 200, 255, 0.495) 100%
   );
   background: -webkit-linear-gradient(
     180deg,
-    rgba(255, 222, 0, 0.5) 0%,
-    rgba(242, 255, 3, 0.8) 50%,
-    rgba(255, 222, 0, 0.5) 100%
+    rgba(0, 200, 255, 0.495) 0%,
+    rgba(0, 200, 255, 0.7) 50%,
+    rgba(0, 200, 255, 0.495) 100%
   );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   bottom: 30%;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 h6 {
@@ -73,6 +75,7 @@ h6 {
   font-family: "Quicksand", sans-serif;
   font-weight: 100;
   color: rgba(240, 248, 255, 0.473);
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .nav {
   position: fixed;
@@ -103,12 +106,26 @@ h6 {
   display: flex;
   gap: 2rem;
 }
-
+.mobileSocial,
+.logo-links-mobile {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   h2 {
     bottom: 42%;
   }
   .logo-links {
     display: none;
+  }
+  .mobileSocial {
+    display: flex;
+    position: fixed;
+    bottom: 10vh;
+    color: rgba(255, 255, 255, 0.781);
+    align-items: center;
+    gap: 1rem;
+  }
+  .logo-links-mobile {
+    display: inline;
   }
 }
