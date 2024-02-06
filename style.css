@@ -147,6 +147,9 @@ h6 {
   color: #dc48ff;
   text-decoration: none;
 }
+a img{
+  border-radius:6px;
+}
 @media only screen and (max-width: 600px) {
   h2 {
     bottom: 37%;
